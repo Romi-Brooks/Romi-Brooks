@@ -1,11 +1,1 @@
-# :sparkles: About Me :sparkles:
-- heello
-heheheheh
-hehehsisbakxbw
-i am coding 
-
-
-
-
-
-❤
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=RomiBrooks)](https://github.com/anuraghazra/github-readme-stats)
