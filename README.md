@@ -31,7 +31,7 @@ class About {
 			 << "CPP" << endl
 			 << "Go" << endl << endl;
 		}
-		void Future() {
+	void Future() {
 		cout << "To go to the sea, to have a \"pure\" love, to the most desolate place, to the most prosperous place"
 			 << endl
 			 << "Leaving this \"bad\" world without any burden"
