@@ -4,8 +4,8 @@
 
 ![Meme#1](https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif)&ensp;&ensp;
 ![RomiBrooks's GitHub stats](https://github-readme-stats.vercel.app/api?username=Romi-Brooks&show_icons=true&theme=radical)  
-- :pig_nose: A post-05 yearning for a non-mainstream era.&ensp;一位十分向往非主流时代的05后
-- :house: Born in a remote village in China.&ensp;出生在中国偏远山村
+- :pig_nose: A post-05 yearning for a non-mainstream era.&ensp;向往非主流时代的05后
+- :house: Born in a remote village in China.&ensp;出生在偏远山村
 - :pencil2: Concentrating on preparing for the exam.&ensp;潜心备考中
 - :four_leaf_clover: Full stack learner.&ensp;全栈学习
 - :wink: Focus on audio development, A music producer.&ensp;专注于音频开发,音乐人
@@ -25,24 +25,23 @@ using namespace std;
 class About {
 	public:
     	void LearningLang() {
-		cout << "HTML" << endl
-			 << "CSS" << endl
-			 << "Python" << endl
-			 << "CPP" << endl
-			 << "Go" << endl << endl;
+		cout << "HTML\n"
+			 << "CSS\n"
+			 << "Python\n"
+			 << "CPP\n"
+			 << "Go\n" << endl;
 		}
 	void Future() {
 		cout << "To go to the sea, to have a \"pure\" love, to the most desolate place, to the most prosperous place"
 			 << endl
 			 << "Leaving this \"bad\" world without any burden"
 			 << endl
-			 << "World Peace." << endl << endl;
+			 << "World Peace.\n" << endl;
 		}
-	private:
 };
 int main()
 {
-   	cout << "Romi Brooks Here!" << endl << endl;
+   	cout << "Romi Brooks Here!\n" << endl;
    	About RomiBrooks;
    	RomiBrooks.LearningLang();
 	RomiBrooks.Future();
