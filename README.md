@@ -4,13 +4,13 @@
 
 ![Meme#1](https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif)&ensp;&ensp;
 ![RomiBrooks's GitHub stats](https://github-readme-stats.vercel.app/api?username=Romi-Brooks&show_icons=true&theme=radical)  
-- :pig_nose: A post-05 yearning for a non-mainstream era.&ensp;向往非主流时代的05后
-- :house: Born in a remote village in China.&ensp;出生在偏远山村
-- :pencil2: Concentrating on preparing for the exam.&ensp;潜心备考中
-- :four_leaf_clover: Full stack learner.&ensp;全栈学习
-- :wink: Focus on audio development, A music producer.&ensp;专注于音频开发,音乐人
-- :walking: Let everyting slow down.&ensp;让一切慢下来
-- :stuck_out_tongue_winking_eye: Any other entries, Add them when I remember!&ensp;还有什么别的条目吗,等我想起来再加吧 
+- :pig_nose: Wow! What a millennium!?
+- :house: Born in a remote village in China.&ensp;
+- :pencil2: Concentrating on preparing for the exam.&ensp;
+- :four_leaf_clover: Full stack learner.&ensp;
+- :wink: Focus on audio development, A music producer.&ensp;
+- :walking: Let everyting slow down.&ensp;
+- :stuck_out_tongue_winking_eye: Any other entries, Add them when I remember!&ensp; 
 
 ### :smiley: About Myself
 <a href="https://www.instagram.com/romibrook_official/"><img src="https://img.shields.io/badge/instagram%20ROMI.BROOKS-DD2476?style=for-the-badge&logo=instagram&logoColor=white"/></a>
