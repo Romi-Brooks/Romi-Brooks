@@ -3,7 +3,9 @@
 > What do you want to be, It's what do you do, Not what you think. :heartbeat:
 
 ![Meme#1](https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif)&ensp;&ensp;
-![RomiBrooks's GitHub stats](https://github-readme-stats.vercel.app/api?username=Romi-Brooks&show_icons=true&theme=radical)  
+![RomiBrooks's GitHub stats](https://github-readme-stats.vercel.app/api?username=Romi-Brooks&show_icons=true&theme=ambient_gradient)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Romi-Brooks&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
 - :pig_nose: Wow! What a millennium!?
 - :house: Born in a remote village in China.&ensp;
 - :four_leaf_clover: Full stack learner.&ensp;
