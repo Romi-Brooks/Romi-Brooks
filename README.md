@@ -21,18 +21,19 @@
 ```cpp
 class AboutMe {
 	public:
-    	void LearningLang() {
-		cout << "HTML\n"
-			 << "CSS\n"
-			 << "Python\n"
-			 << "CPP\n";
+    	auto LearningLang() const -> void {
+			cout << "CPP\n"
+				 << "Go\n"
+				 << "Python\n"
+				 << "Typescript\n";
 		}
-	void Future() {
-		cout << "To go to the sea, to have a \"pure\" love, to the most desolate place, to the most prosperous place"
-			 << endl
-			 << "Leaving this \"bad\" world without any burden"
-			 << endl
-			 << "Fuck the world." << endl;
+
+		auto SayWhat() const -> void {
+			cout << "To go to the sea, to have a \"pure\" love, to the most desolate place, to the most prosperous place"
+				 << endl
+				 << "Leaving this \"bad\" world without any burden"
+				 << endl
+				 << "Fuck the world." << endl;
 		}
 };
 ```
