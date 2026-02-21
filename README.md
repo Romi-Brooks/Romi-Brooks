@@ -5,8 +5,7 @@
 ![Meme#1](https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif)&ensp;&ensp;  
 
 ![Stats](./profile/stats.svg)  
-![Top Languages](./profile/top-langs.svg)  
-![Pinned](./profile/pin-readme-tools-github-readme-stats.svg)  
+![Top Languages](./profile/top-langs.svg)    
 
 - :pig_nose: Wow! What a millennium!?
 - :house: Born in a remote village in China.&ensp;
