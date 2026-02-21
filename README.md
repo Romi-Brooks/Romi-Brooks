@@ -2,7 +2,8 @@
 ## <img src='https://qpluspicture.oss-cn-beijing.aliyuncs.com/6LjjQA/Hi.gif' alt='Hi' width="24"/>  Hi There, Romi Brooks Here!  
 > What do you want to be, It's what do you do, Not what you think. :heartbeat:
 
-![Meme#1](https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif)&ensp;&ensp;
+![Meme#1](https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif)&ensp;&ensp;  
+
 ![Stats](./profile/stats.svg)
 ![Top Languages](./profile/top-langs.svg)  
 
