@@ -19,9 +19,8 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=radical
           path: profile/stats.svg
-          theme: radical
           token: ${{ secrets.GITHUB_TOKEN }}
 
 
@@ -29,10 +28,8 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=radical&hide=css,html
           path: profile/top-langs.svg
-          exclude_languages: html,css
-          theme: radical
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit cards
