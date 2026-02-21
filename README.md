@@ -2,9 +2,11 @@
 ## <img src='https://qpluspicture.oss-cn-beijing.aliyuncs.com/6LjjQA/Hi.gif' alt='Hi' width="24"/>  Hi There, Romi Brooks Here!  
 > What do you want to be, It's what do you do, Not what you think. :heartbeat:
 
-![Meme#1](https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif)&ensp;&ensp;
-![RomiBrooks's GitHub stats](https://github-readme-stats.vercel.app/api?username=Romi-Brooks&show_icons=true&theme=ambient_gradient)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Romi-Brooks&layout=compact&theme=onedark&exclude_repo=Romi-Brooks.github.io)](https://github.com/anuraghazra/github-readme-stats)
+![Meme#1](https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif)&ensp;&ensp;  
+
+![Stats](./profile/stats.svg)  
+![Top Languages](./profile/top-langs.svg)  
+![Pinned](./profile/pin-readme-tools-github-readme-stats.svg)  
 
 - :pig_nose: Wow! What a millennium!?
 - :house: Born in a remote village in China.&ensp;
