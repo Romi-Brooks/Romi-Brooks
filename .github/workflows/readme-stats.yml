@@ -1,0 +1,48 @@
+# .github/workflows/readme-stats.yml
+name: GitHub Readme Stats Action
+on:
+  # 手动触发
+  workflow_dispatch:
+  # 定时触发
+  schedule:
+    - cron: '0 */6 * * *'
+  # 推送代码时触发
+  push:
+    branches: [ main, master ]
+    paths:
+      - '.github/workflows/readme-stats.yml'
+
+jobs:
+  update-readme-stats:
+    runs-on: ubuntu-latest
+    steps:
+      # 检出仓库代码
+      - uses: actions/checkout@v4
+
+      # 运行 github-readme-stats-action 生成统计卡片
+      - name: Generate GitHub Readme Stats
+        uses: anuraghazra/github-readme-stats-action@master  # 核心Action引用
+        with:
+          # 必填：你的GitHub用户名（替换成自己的）
+          github_username: your_github_username
+          # 可选：要生成的卡片类型（支持 stats, repos, languages, stars）
+          # 多个类型用逗号分隔
+          stats_type: stats,languages
+          # 可选：统计卡片主题（内置主题如 default, dark, radical 等）
+          theme: dark
+          # 可选：是否显示图标
+          show_icons: true
+          # 可选：排除的编程语言（用逗号分隔）
+          exclude_languages: html,css
+          # 可选：排序语言的方式（size 按代码量，count 按仓库数）
+          language_count: 5
+          layout: compact
+
+      # 自动提交更新后的README到仓库
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update GitHub stats cards" -a || echo "No changes to commit"
+          git push
