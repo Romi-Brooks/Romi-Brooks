@@ -1,48 +1,48 @@
-# .github/workflows/readme-stats.yml
-name: GitHub Readme Stats Action
+name: Update README cards
+
 on:
-  # 手动触发
-  workflow_dispatch:
-  # 定时触发
   schedule:
-    - cron: '0 */6 * * *'
-  # 推送代码时触发
-  push:
-    branches: [ main, master ]
-    paths:
-      - '.github/workflows/readme-stats.yml'
+    - cron: "0 0 * * *" # Runs once daily at midnight
+  workflow_dispatch:
 
 jobs:
-  update-readme-stats:
+  build:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
     steps:
-      # 检出仓库代码
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      # 运行 github-readme-stats-action 生成统计卡片
-      - name: Generate GitHub Readme Stats
-        uses: anuraghazra/github-readme-stats-action@master  # 核心Action引用
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
         with:
-          # 必填：你的GitHub用户名（替换成自己的）
-          github_username: your_github_username
-          # 可选：要生成的卡片类型（支持 stats, repos, languages, stars）
-          # 多个类型用逗号分隔
-          stats_type: stats,languages
-          # 可选：统计卡片主题（内置主题如 default, dark, radical 等）
-          theme: dark
-          # 可选：是否显示图标
-          show_icons: true
-          # 可选：排除的编程语言（用逗号分隔）
-          exclude_languages: html,css
-          # 可选：排序语言的方式（size 按代码量，count 按仓库数）
-          language_count: 5
-          layout: compact
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 自动提交更新后的README到仓库
-      - name: Commit and Push
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=readme-tools&repo=github-readme-stats
+          path: profile/pin-readme-tools-github-readme-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit cards
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "Update GitHub stats cards" -a || echo "No changes to commit"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update README cards" || exit 0
           git push
