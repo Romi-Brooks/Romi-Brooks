@@ -35,7 +35,7 @@ class AboutMe {
 				 << endl
 				 << "Leaving this \"bad\" world without any burden"
 				 << endl
-				 << "Fuck the world." << endl;
+				 << "Fuck this world." << endl;
 		}
 };
 ```
