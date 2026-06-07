@@ -26,7 +26,8 @@ class AboutMe {
 			cout << "CPP\n"
 				 << "Go\n"
 				 << "Python\n"
-				 << "Typescript\n";
+				 << "Typescript\n"
+				 << "RUST MAYBE !!!\n";
 		}
 
 		auto SayWhat() const -> void {
